@@ -1,7 +1,8 @@
 ---
-app_duplicati_enabled: false
-app_duplicati_puid: '16704'
-app_duplicati_pgid: '16704'
-app_duplicati_tz: "Europe/Zurich"
-app_duplicati_dir: "/opt/app-duplicati"
-app_duplicati_cli_args: ""
+role_duplicati_image: 'lscr.io/linuxserver/duplicati'
+role_duplicati_container: 'duplicati'
+role_duplicati_puid: '1000'
+role_duplicati_pgid: '1000'
+role_duplicati_tz: 'Europe/Zurich'
+role_duplicati_dir: '/opt/app-duplicati'
+role_duplicati_network: 'app-network'
